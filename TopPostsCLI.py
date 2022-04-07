@@ -15,8 +15,9 @@ reddit=praw.Reddit(
 SubRedditToSearch=reddit.subreddit(input("Input your favorite subreddit"))
 print(SubRedditToSearch)
 
-for submission in reddit.subreddit(SubRedditToSearch).top("all"):
+for submission in reddit.subreddit(str(SubRedditToSearch)).top(limit=5):
     print(submission.title)
+    print(submission.url)
 
 
 #for submission in reddit.subreddit("Starcraft").top("all"):

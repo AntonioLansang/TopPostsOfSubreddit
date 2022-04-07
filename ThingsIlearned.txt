@@ -1,3 +1,6 @@
 Sources:
 
 https://praw.readthedocs.io/en/stable/code_overview/models/subreddit.html?highlight=subreddit
+
+
+https://github.com/praw-dev/praw/issues/1503
